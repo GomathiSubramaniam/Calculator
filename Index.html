@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+    <div class="calc">        
+        <input type="text" id="inputext" placeholder="0">
+        <button style="color: red;" onclick="Clear()">C</button>
+        <button onclick="del()"><-</button>
+        <button style="color: blue;" onclick="clicking('.')">.</button>
+        <button style="color: blue;" onclick="clicking('*')">X</button>
+        <button onclick="clicking('7')">7</button>
+        <button onclick="clicking('8')">8</button>
+        <button onclick="clicking('9')">9</button>
+        <button style="color: blue;" onclick="clicking('/')">/</button>
+        <button onclick="clicking('4')">4</button>
+        <button onclick="clicking('5')">5</button>
+        <button onclick="clicking('6')">6</button>
+        <button style="color: blue;" onclick="clicking('-')">-</button>
+        <button onclick="clicking('1')">1</button>
+        <button onclick="clicking('2')">2</button>
+        <button onclick="clicking('3')">3</button>
+        <button style="color: blue;" onclick="clicking('+')">+</button>
+        <button onclick="clicking('0')">0</button>
+        <button onclick="clicking('00')">00</button>
+        <button onclick="Calculate()" class="equal">=</button>
+    </div>
+</div>
+</body>
+<script src="sctipt.js"></script>
+<link rel="stylesheet" href="Style.css">
+   <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</html>
